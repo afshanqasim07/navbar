@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+li{
+display: inline;
+margin-left: 10px;
+    margin-right: 10px;
+}
+ul{
+    text-align: end;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    
+}
