@@ -3,15 +3,51 @@
     padding: 0px;
     box-sizing: border-box;
 }
-li{
-display: inline;
-margin-left: 10px;
-    margin-right: 10px;
-}
 ul{
     text-align: end;
-    background-color: black;
     color: white;
     padding: 20px;
+    display: flex;
+    gap: 30PX;
+    margin-top: 10px;
+   
     
+}
+li:hover{
+    background-color: black;
+    color: white;
+    transform: translateY(-10px);
+    padding: 7px;
+
+}
+.logo img{
+    width: 80px;
+}
+.navbar{
+    background-color: rgb(160, 103, 103);
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+}
+
+LI{
+    list-style-type: none;
+justify-content: space-around;
+transition: all 0.4s linear;
+}
+.btn{
+    background-color: lightseagreen;
+    color:white ;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    width: 150px;
+    margin-top: -8px;
+    margin-left: 25px ;
+    transition: all 2s ease-out ;
+}
+.btn:hover{
+    background-color: skyblue;
+    color: black;
+    transform: translateY(-10px);
 }
